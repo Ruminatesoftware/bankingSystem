@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: "Bebas Neue", cursive; */
+  font-weight: 400;
+}
+img {
+  height: 168px;
+  width: 100%;
+}
+
+#root {
+  background: #232d38;
+}
+.progressbar1 span.progressbar_show,
+.progressbar2 span.progressbar_show,
+.progressbar3 span.progressbar_show {
+  display: inline-block;
+  width: 70%;
+}
+/* Footer CSS*/
+.footer-wrapper {
+  border-top: 1px solid #e7e7e7;
+}
+
+.footer .container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+.footer:not(.footer-big) nav > ul li {
+  margin-left: 20px;
+  float: left;
+}
+.footer:not(.footer-big) nav > ul a {
+  padding: 10px 0;
+  margin: 10px 10px 10px 0;
+}
+.footer nav > ul a:not(.btn) {
+  color: #9a9a9a;
+  display: block;
+  margin-bottom: 3px;
+}
+.footer .copyright {
+  color: #777;
+  padding: 10px 15px;
+  margin: 10px 3px;
+  line-height: 20px;
+  font-size: 14px;
+}
+.round-circle-purple {
+  height: 50px;
+  width: 50px;
+  background-color: #321f52;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+.round-circle-green {
+  height: 50px;
+  width: 50px;
+  background-color: #2ecfb5;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+.round-circle-pink {
+  height: 45px;
+  width: 45px;
+  background-color: #ff906e;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+.round-names {
+  display: inline-grid;
+  position: absolute;
+  padding-left: 15px;
+}
+.send-wrapper {
+  color: #0c6aba;
+  font-weight: bold;
+  text-align: center;
+}
+.numeric-wrapper {
+  border-bottom: 1px solid #ffffff;
+  float: right;
+}
+.names-wrapper {
+  border: 1px solid #ffffff;
+  background: #232d38;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.recent-transaction-wrapper span.round-circle-title {
+  margin-top: 12px;
+  margin-left: 5px;
+  position: absolute;
+  color: #ffffff;
+  font-weight: bold;
+}
+.recent-transaction-wrapper span.round-circle-date-title {
+  margin-left: 15px;
+  position: absolute;
+  color: #ffffff;
+  font-weight: bold;
+}
+.recurring-payments-wrapper span.round-circle-title {
+  margin-top: 12px;
+  margin-left: 5px;
+  position: absolute;
+  color: #ffffff;
+  font-weight: bold;
+}
+.carousel-caption {
+  color: black;
+}
+
+.slider-wrapper {
+  background: #232d38;
+}
+.demo_texts {
+  font-size: 12px;
+}
+span.credit_card_title {
+  margin: 0px 50px;
+  color: #ffffff;
+}
+span.credit_amt {
+  float: right;
+}
+.slider-wrapper h6 {
+  color: #ffffff;
+}
+svg:not(:root).svg-inline--fa,
+svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+  color: #ffffff;
+}
+.credit_description .credit_title {
+  color: #ffffff;
+  font-size: 12px;
+}
+.credit_description .credit_amt {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.credit_description .cut_off_date {
+  color: #047ee6;
+  font-size: 12px;
+}
+.credit_description .credit {
+  margin-bottom: 15px;
+}
+
+button.my-button {
+  border-radius: 25px;
+  border: 2px solid #047ee6;
+  padding: 10px 20px;
+  background: #232d38;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  width: 45%;
+}
+
+.credit_button_wrapper button.acitivity {
+  float: right;
+}
+.loan_calculator_wrapper.loan_leftside {
+  float: left;
+}
+.loan_calculator_wrapper.loan_rightside {
+  float: right;
+}
+
+.loan_calculator_wrapper span.loan_amount {
+  float: right;
+}
+.loan_calculator_wrapper.loan_leftside {
+  width: 100%;
+}
+a.payment_plan {
+  text-decoration: none;
+}
+input[type="text"] {
+  margin-bottom: 15px;
+  width: 100%;
+}
+button.payment_button {
+  float: right;
+}
+.loan_wrapper .loan_mount {
+  float: right;
+  font-size: 12px;
+  color: #047ee6;
+}
+.card-body {
+  background: #232d38;
+  color: #ffffff;
+}

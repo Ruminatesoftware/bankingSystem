@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,400;1,700&display=swap');
+
+html body {
+  background-color: #202a34;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+body #root {
+  background: none;
+}
+
+.nui-wrapper {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+pre {
+  counter-reset: line-numbering;
+  background: #2c3e50;
+  padding: 12px 0px 14px 0;
+  color: #ecf0f1;
+  line-height: 140%;
+}
+
+.popup-thing {
+  background: #282c34;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Header */
+.navbar-brand {
+  padding: 19px 0px;
+  background-color: #253443;
+  box-shadow: 15px 0px 15px 0px rgb(0 0 0 / 0.1%);
+}
+
+.navbar-brand img {
+  height: 54px;
+}
+
+.heading-wrapper .navbar-collapse {
+  justify-content: end;
+}
+
+.heading-wrapper .navbar {
+  background-color: #253443 !important;
+  padding: 0px;
+}
+
+.heading-wrapper .navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 14px ;
+  padding: 11px 18px;
+}
+
+.heading-wrapper .navbar .navbar-nav .nav-link:hover {
+  color: #008aff;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  right: 0px;
+  left: inherit;
+  background: #232d38;
+  border: none;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+  color: #8999a9;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:focus, 
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #253443;
+}
+
+.navbar-expand-lg .dropdown-toggle::after {
+  content: none;
+}
+
+.navbar-expand-lg .dropdown-toggle svg {
+  height: 12px;
+  margin-left: 8px;
+}
+
+.main-content .card {
+  background-color: #232d38;
+  border: none;
+  margin-top: 30px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.main-content .card-body {
+  padding: 0;
+}
+
+/* Recurring Payments */
+
+.sidebar.card{
+  background-color: #253443;
+  border-radius: 0;
+  margin-top: 2px;
+}
+.sidebar .card-body {
+  padding: 27px 30px;
+}
+.sidebar h6 {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 33px;
+}
+
+.sidebar .slick-slider .slick-arrow {
+  display: none !important;
+}
+
+.sidebar .list-group .list-group-item {
+  padding: 0;
+  border: none;
+  background: none;
+  margin-bottom: 33px;
+  align-items: center !important;
+}
+
+.sidebar .list-group:last-child .list-group-item {
+  margin-bottom: 21;
+}
+
+.sidebar .list-group .list-group-item .p_title {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+
+.sidebar .list-group .list-group-item .m_down svg {
+  color: #ff6161;
+}
+
+.sidebar .list-group .list-group-item .m_up svg {
+  color: #99ff61;
+}
+
+.sidebar .list-group .list-group-item .demo_texts {
+  font-size: 12px;
+  font-weight: 300;
+  color: #8999a9;
+  margin-bottom: 9px;
+}
+
+.sidebar .list-group .list-group-item .p_price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/** Banking CSS **/
+.sidebar .round-circle-green {
+  height: 48px;
+  width: 48px;
+  background: rgb(16,192,198);
+  background: linear-gradient(53deg, rgba(16,192,198,1) 0%, rgba(132,250,132,1) 100%);
+}
+
+.sidebar .round-circle-pink {
+  height: 48px;
+  width: 48px;
+  background: rgb(254,93,131);
+  background: linear-gradient(1deg, rgba(254,93,131,1) 0%, rgba(255,168,100,1) 100%);
+}
+
+.sidebar .round-circle-date-title {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  line-height: 15px;
+}
+
+.sidebar .round-circle-date-title span {
+  font-size: 14px;
+}
+
+/* Slick */ 
+.slick-slider .slick-dots li button:before {
+  font-size: 10px;
+}
+
+.slick-slider .slick-dots li button:before {
+  color: #1c2937;
+  opacity: 1;
+}
+
+.slick-slider .slick-dots li.slick-active button:before {
+  color: #3a4e63;
+  opacity: 1;
+}
+
+.slick-slider .slick-dots {
+  width: auto;
+  bottom: 0;
+}
+
+.slick-slider .slick-dots li {
+  width: auto;
+  height: auto;
+  margin: 0 7px;
+}
+
+.slick-slider .slick-dots li button {
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+.slick-slider .slick-dots li button:before {
+  width: auto;
+  height: auto;
+}
+
+/* Tabs */
+.tabs-section .tabs-title {
+  background-color: #253443;
+  color: #fff;
+  font-size: 14px;
+  padding: 19px 29px;
+  border-radius: 5px 5px 0 0;
+}
+
+.tabs-section .nav-pills {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tabs-section .nav-pills .nav-link {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 0px;
+  padding: 18px 14px;
+  letter-spacing: 1px;
+}
+
+.tabs-section .nav-pills .nav-link.active, 
+.tabs-section .nav-pills .show > .nav-link {
+  background: none;
+  border-bottom: 2px solid #008aff;
+}
+
+/* Balance */
+.card-body .progress {
+  background-color: #19232c;
+  height: 4px;
+  overflow: inherit;
+}
+
+.card-body .progress-bar {
+  border-radius: 4px;
+}
+
+.card-body .progressbar1,
+.card-body .progressbar2,
+.card-body .progressbar3 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-body .progressbar_title {
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.card-body .progress_bar {
+  padding: 15px 20px 10px 20px;
+}
+
+.card-body .progressbar1 .progressbar_title {
+  color: #15c7cd;
+}
+.card-body .progressbar2 .progressbar_title {
+  color: #0e80f6;
+}
+.card-body .progressbar3 .progressbar_title {
+  color: #df65b6;
+}
+
+.card-body .per {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #19232c;
+  font-weight: 700;
+}
+
+.card-body .progressbar1 .progress-bar {
+  background: rgb(32,219,182);
+  background: linear-gradient(90deg, rgba(32,219,182,1) 0%, rgba(55,228,254,1) 100%);
+  box-shadow: 0px 0px 8px 0px rgba(48,225,232,0.3);
+}
+
+.card-body .progressbar2 .progress-bar {
+  background: rgb(39,114,227);
+  background: linear-gradient(90deg, rgba(39,114,227,1) 0%, rgba(83,155,254,1) 100%);
+  box-shadow: 0px 0px 8px 0px rgba(0,103,246,0.5);
+}
+
+.card-body .progressbar3 .progress-bar {
+  background: rgb(224,101,181);
+  background: linear-gradient(90deg, rgba(224,101,181,1) 0%, rgba(183,113,230,1) 100%);
+  box-shadow: 0px 0px 8px 0px rgba(210,105,198,0.4);
+}
+
+/* Alper list */
+.main-content .alper-list,
+.alper-list .card-body {
+  background: none;
+  box-shadow: none;
+}
+
+.alper-list .list-group {
+  background: #232d38;
+  margin-bottom: 4px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
+}
+
+.alper-list .list-group li {
+  background: none;  
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 29px 11px 21px;
+}
+
+.alper-list .list-group:last-child li {
+  margin-bottom: 0px;
+}
+
+.alper-list .round-circle-purple {
+  height: 53px;
+  width: 53px;
+  background: #251c32;
+  background: linear-gradient(41deg, #442a72 0%, #251c32 50%, #251c32 100%);
+}
+
+.alper-list .alper-title { 
+  margin-left: 19px;
+  line-height: 16px;
+}
+
+.alper-list .numeric-wrapper {
+  border-color: #37434f;
+  border-width: 2px;
+  color: #8999a9;
+  margin-right: 20px;
+  padding-left: 54px;
+}
+
+.alper-list .send-wrapper {
+  color: #008aff;
+}
+
+/* Loan Calculator */
+
+.calculator .rangeslider {
+  background: #19232c;
+  box-shadow: none;
+  height: 4px;
+  margin-top: 35px;
+}
+
+.calculator .rangeslider-horizontal .rangeslider__fill {
+  background-color: #b6d4ef;
+  box-shadow: none;
+}
+
+.calculator .rangeslider-horizontal .rangeslider__handle:after {
+  content: none;
+}
+
+.calculator .rangeslider-horizontal .rangeslider__handle {
+  width: 16px;
+  height: 16px;
+  border: none;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.45);
+}
+
+.calculator .form-control:disabled {
+  background-color: #202a34;
+}
+
+.calculator input[type="text"] {
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-align: right;
+  padding: 13px 19px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.calculator .loan_filed {
+  position: relative;
+}
+
+.calculator .loan_filed span {
+  color: #8999a9;
+  font-size: 12px;
+  position: absolute;
+  left: 11px;
+  top: 9px;
+}
+
+.calculator .loan_calculator_wrapper.loan_rightside {
+  float: none;
+}
+
+.calculator .tab-content {
+  padding: 24px 21px 26px 29px;
+}
+
+.calculator .loan_leftside .loan_ttile {
+  font-size: 14px;
+  color: #8999a9;
+  font-weight: 700;
+}
+
+.calculator .loan_leftside .loan_amount {
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 2px solid rgb(137 153 169 / 20%);
+  min-width: 173px;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.calculator .loan_leftside .l_term .loan_amount {
+  min-width: 53px;
+}
+
+.calculator .loan_leftside .l_term .loan_mount {
+  padding: 7px 0;
+  margin-left: 22px;
+  font-size: 14px;
+  color: #008aff;
+}
+
+.calculator .loan_leftside .l_term .loan_mount svg {
+  margin-left: 6px;
+  color: #008aff;
+  height: 12px;
+}
+
+.calculator .loan_leftside .loan_wrapper {
+  margin-top: 29px;
+}
+
+.calculator .loan_leftside .loan_wrapper:first-child {
+  margin-top: 0px;
+}
+
+.calculator .payment_plan_wrapper {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.calculator button.payment_button {
+  font-size: 14px;
+  padding: 10px 48px;
+  width: auto;
+  margin-left: 23px;
+}
+
+.calculator button.payment_button:hover {
+  color: #008aff;
+}
+
+.calculator a.payment_plan {
+  font-size: 14px;
+    color: #008aff;
+}
+
+/* credit-cards */
+.credit-cards h6 {
+  background-color: #253443;
+  color: #fff;
+  font-size: 14px;
+  padding: 19px 29px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 20px;
+}
+
+.credit-cards .credit_card_title {
+  font-size: 14px;
+  margin: 0px 61px;
+}
+
+.credit-cards svg {
+  font-size: 14px;
+}
+
+.credit-cards .credit_description .credit_title {
+  color: #8999a9;
+  font-size: 14px;
+}
+
+.credit-cards .credit_description .credit {
+  margin-bottom: 0px;
+  border-bottom: 1px solid rgb(25 35 44);
+  padding: 15px 30px;
+}
+
+.credit-cards .credit_description .credit:last-child {
+  border-bottom: none;
+}
+
+.credit-cards .credit_description .credit_amt {
+  font-size: 20px;
+  line-height: initial;
+}
+
+.credit-cards .credit_description .credit_amt.cut_off_date {
+  font-size: 14px;
+}
+
+.credit-cards button.my-button {
+  font-size: 14px;
+  padding: 10px 48px;
+  width: 47%;
+}
+
+.credit-cards .credit_button_wrapper {
+  margin: 12px 20px 20px 20px;
+}
+
+.credit-cards .slick-track {
+  text-align: center;
+}
+
+.credit-cards .slick-slide img {
+  display: inline-block;
+  width: auto;
+}
+
+.credit-cards .slick-list {
+  margin-bottom: 15px;
+}
+
+.main-wrapper .footer-wrapper {
+  border-top: none;
+  padding: 24px 0px;
+}
+
+.footer-wrapper .footer:not(.footer-big) nav > ul a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: 14px;
+  color: #8999a9;
+}
+
+.footer-wrapper .footer nav > ul a:not(.btn) {
+  margin-bottom: 0;
+}
+
+.footer-wrapper .footer:not(.footer-big) nav > ul li {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.footer-wrapper .footer .copyright {
+  color: #8999a9;
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+  font-size: 14px;
+}
+
+.footer-wrapper .footer nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .container-fluid {
+  padding: 0;
+}
